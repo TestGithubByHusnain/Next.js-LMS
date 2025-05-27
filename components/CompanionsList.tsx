@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/table";
 import {
   cn,
-  //  getSubjectColor
+   getSubjectColor
 } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
@@ -66,7 +66,7 @@ const CompanionsList = ({
                 </div>
                 <div
                   className="flex items-center justify-center rounded-lg w-fit p-2 md:hidden"
-                //   style={{ backgroundColor: getSubjectColor(subject) }}
+                  style={{ backgroundColor: getSubjectColor(subject) }}
                 >
                   <Image
                     src={`/icons/${subject}.svg`}
